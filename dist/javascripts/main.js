@@ -9,35 +9,35 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/modules/my.css":
-/*!****************************!*\
-  !*** ./src/modules/my.css ***!
-  \****************************/
+/***/ "./src/stylesheets/main.css":
+/*!**********************************!*\
+  !*** ./src/stylesheets/main.css ***!
+  \**********************************/
 /***/ (() => {
 
-eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\\nTypeError: The 'compilation' argument must be an instance of Compilation\\n    at getCompilationHooks (C:\\\\Users\\\\yuohnishi\\\\dev\\\\udemy\\\\webpack\\\\node_modules\\\\webpack\\\\lib\\\\javascript\\\\JavascriptModulesPlugin.js:176:10)\\n    at C:\\\\Users\\\\yuohnishi\\\\dev\\\\udemy\\\\webpack\\\\node_modules\\\\webpack\\\\lib\\\\javascript\\\\CommonJsChunkFormatPlugin.js:46:19\\n    at Hook.eval [as call] (eval at create (C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\node_modules\\\\tapable\\\\lib\\\\HookCodeFactory.js:19:10), <anonymous>:7:1)\\n    at Hook.CALL_DELEGATE [as _call] (C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\node_modules\\\\tapable\\\\lib\\\\Hook.js:14:14)\\n    at Compiler.newCompilation (C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\lib\\\\Compiler.js:1273:30)\\n    at C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\lib\\\\Compiler.js:1318:29\\n    at Hook.eval [as callAsync] (eval at create (C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\node_modules\\\\tapable\\\\lib\\\\HookCodeFactory.js:33:10), <anonymous>:6:1)\\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\node_modules\\\\tapable\\\\lib\\\\Hook.js:18:14)\\n    at Compiler.compile (C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\lib\\\\Compiler.js:1313:28)\\n    at Compiler.runAsChild (C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\lib\\\\Compiler.js:638:8)\");\n\n//# sourceURL=webpack://webpack-practice/./src/modules/my.css?");
+eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\\nTypeError: The 'compilation' argument must be an instance of Compilation\\n    at getCompilationHooks (C:\\\\Users\\\\yuohnishi\\\\dev\\\\udemy\\\\webpack\\\\node_modules\\\\webpack\\\\lib\\\\javascript\\\\JavascriptModulesPlugin.js:176:10)\\n    at C:\\\\Users\\\\yuohnishi\\\\dev\\\\udemy\\\\webpack\\\\node_modules\\\\webpack\\\\lib\\\\javascript\\\\CommonJsChunkFormatPlugin.js:46:19\\n    at Hook.eval [as call] (eval at create (C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\node_modules\\\\tapable\\\\lib\\\\HookCodeFactory.js:19:10), <anonymous>:7:1)\\n    at Hook.CALL_DELEGATE [as _call] (C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\node_modules\\\\tapable\\\\lib\\\\Hook.js:14:14)\\n    at Compiler.newCompilation (C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\lib\\\\Compiler.js:1273:30)\\n    at C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\lib\\\\Compiler.js:1318:29\\n    at Hook.eval [as callAsync] (eval at create (C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\node_modules\\\\tapable\\\\lib\\\\HookCodeFactory.js:33:10), <anonymous>:6:1)\\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\node_modules\\\\tapable\\\\lib\\\\Hook.js:18:14)\\n    at Compiler.compile (C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\lib\\\\Compiler.js:1313:28)\\n    at Compiler.runAsChild (C:\\\\Users\\\\yuohnishi\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\lib\\\\Compiler.js:638:8)\");\n\n//# sourceURL=webpack://webpack-practice/./src/stylesheets/main.css?");
 
 /***/ }),
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/javascripts/main.js":
+/*!*********************************!*\
+  !*** ./src/javascripts/main.js ***!
+  \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_my_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/my.js */ \"./src/modules/my.js\");\n/* harmony import */ var _modules_my_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/my.css */ \"./src/modules/my.css\");\n/* harmony import */ var _modules_my_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_my_css__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n\r\nconsole.log('webpack!');\r\n(0,_modules_my_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\r\n\n\n//# sourceURL=webpack://webpack-practice/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _my_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./my.js */ \"./src/javascripts/my.js\");\n/* harmony import */ var _stylesheets_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stylesheets/main.css */ \"./src/stylesheets/main.css\");\n/* harmony import */ var _stylesheets_main_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_stylesheets_main_css__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n\r\nconsole.log('This is index.js');\r\n(0,_my_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\r\n\n\n//# sourceURL=webpack://webpack-practice/./src/javascripts/main.js?");
 
 /***/ }),
 
-/***/ "./src/modules/my.js":
-/*!***************************!*\
-  !*** ./src/modules/my.js ***!
-  \***************************/
+/***/ "./src/javascripts/my.js":
+/*!*******************************!*\
+  !*** ./src/javascripts/my.js ***!
+  \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {\r\n    console.log('this is module');\r\n});\r\n\n\n//# sourceURL=webpack://webpack-practice/./src/modules/my.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {\r\n    console.log('this is module');\r\n});\r\n\n\n//# sourceURL=webpack://webpack-practice/./src/javascripts/my.js?");
 
 /***/ })
 
@@ -113,7 +113,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/javascripts/main.js");
 /******/ 	
 /******/ })()
 ;
